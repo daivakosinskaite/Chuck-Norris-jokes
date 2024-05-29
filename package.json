@@ -1,0 +1,21 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx mix watch",
+    "dev": "npx mix",
+    "production": "npx mix --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.77.2",
+    "sass-loader": "^12.1.0"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Jokes</title>
+    <link rel="stylesheet" href="dist/app.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#" class="header__link" id="homeLink">Home</a></li>
+                <li><a href="#" class="header__link" id="jokeListLink">Joke List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main" id="mainContent">
+        <section class="search" id="homePage">
+            <form class="search__form" id="searchForm">
+                <div class="search__group">
+                    <label for="categorySelect">Category:</label>
+                    <select id="categorySelect" class="search__input">
+                        
+                    </select>
+                </div>
+                <div class="search__group">
+                    <label for="searchInput">Search:</label>
+                    <input type="text" id="searchInput" class="search__input">
+                </div>
+                <button type="submit" class="search__button">Search</button>
+            </form>
+            <div class="search__results" id="searchResults"></div>
+        </section>
+        <section class="jokes" id="jokeListPage" style="display:none;">
+            <h2>Saved Jokes</h2>
+            <div class="jokes__list" id="jokeList"></div>
+        </section>
+    </main>
+    <script src="dist/app.js"></script>
+</body>
+</html>
